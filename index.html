@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Heart Beat Card Counter</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/score-tab.css">
+    <link rel="stylesheet" href="styles/card-container.css">
+
+    <!-- Font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <p>Heart Beat Card Counter</p>
+    </header>
+    <div class="score-tab">
+        <div class="card-counter">
+            <h1>Card Count : <span class="card-count">0</span></h1>
+        </div>
+        <div class="score-counter">
+            <h1 class="score-text">Score : <span class="score-count">0</span></h1>
+        </div>
+        <button class="clear-button">Clear</button>
+    </div>
+    <div class="card-container">
+        <div class="normal-card-container">
+            <div>
+                <div class="2 card" data-card-value='-2'>
+                    <h1>2</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="3 card" data-card-value='-3'>
+                    <h1>3</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="4 card" data-card-value='-4'>
+                    <h1>4</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="5 card" data-card-value='-5'>
+                    <h1>5</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="6 card" data-card-value='-6'>
+                    <h1>6</h1><img src="icons/Heart.svg">
+                </div>
+            </div>
+            <div>
+                <div class="7 card" data-card-value='-7'>
+                    <h1>7</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="8 card" data-card-value='-8'>
+                    <h1>8</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="9 card" data-card-value='-9'>
+                    <h1>9</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="10 card" data-card-value='-10'>
+                    <h1>10</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="j card" data-card-value='-20'>
+                    <h1>J</h1><img src="icons/Heart.svg">
+                </div>
+            </div>
+            <div>
+                <div class="q card" data-card-value='-30'>
+                    <h1>Q</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="k card" data-card-value='-40'>
+                    <h1>K</h1><img src="icons/Heart.svg">
+                </div>
+                <div class="a card" data-card-value='-50'>
+                    <h1>A</h1><img src="icons/Heart.svg">
+                </div>
+            </div>
+        </div>
+        <div class="special-card-container">
+            <div class="c10 card" data-card-value='times2'>
+                <h1>10</h1>
+                <img src="icons/Club.svg">
+            </div>
+            <div class="jD card" data-card-value='plus100'>
+                <h1>J</h1>
+                <img src="icons/Diamond.svg">
+            </div>
+            <div class="qS card" data-card-value='minus100'>
+                <h1>Q</h1>
+                <img src="icons/Spade.svg">
+            </div>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="script-v2.js"></script>
+</body>
+
+</html>

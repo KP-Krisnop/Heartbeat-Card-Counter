@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #F9EED7;
+    --secondary-color: #DBC9A2;
+    --button-color: #B88319;
+    --acent-color: #C24428;
+    --third-color: #8C8066;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    width: 80vw;
+}
+
+p {
+    font-size: 40px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+header p {
+    margin-top: 30px;
+}
+
+img {
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
